@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Du lịch Hà Nội</string>
+
+    <string name="title_activity_gogle_login">GogleLoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="welcome_to_">Welcome to our app</string>
+    <string name="howdy_user_">Hi user,</string>
+    <string name="sign_in_with_google">Sign In with Google</string>
+    <string name="sign_in_wit_otp">Sign In with OTP</string>
+
+    <string name="favourites">Yêu thích</string>
+    <string name="hanoi">Hanoi</string>
+    <string name="state_HNCity">State: Hanoi City</string>
+    <string name="price_rs_49">Price: 4900000 VNĐ/head</string>
+
+    <string name="suggested_place">Suggested Places</string>
+    <string name="profile">Hồ sơ</string>
+    <string name="user_name">MoonLight</string>
+    <string name="user_email">Hoangminhtuyen120201@gmail.com</string>
+    <string name="user_interest">Travel Lover</string>
+    <string name="user_age">Age: 21</string>
+    <string name="user_gender">Gender: Male</string>
+    <string name="hello_blank_fragment">blank fragment</string>
+    <string name="map">Bản đồ</string>
+    <string name="recent_loca">Recent Locations
+    </string>
+    <string name="hanoi_vn">Hanoi,VietNam</string>
+    <string name="login">Login</string>
+
+    <string name="top_places">Top Places</string>
+    <string name="uttarakhand">Place</string>
+    <string name="all_cities">All Cities</string>
+    <string name="Explore">Khám phá</string>
+    <string name="nav_drawer_open">Open Navigation Drawer</string>
+    <string name="nav_drawer_close">CLose Navigation Drawer</string>
+    <string name="googleMap_api_key">AIzaSyA3F6EwEIJR7lzV6nXIU2pKDmXJQ0GvvaI</string>
+
+
+    <string name="title_activity_otp_authentication">activity_otp_authentication</string>
+</resources>

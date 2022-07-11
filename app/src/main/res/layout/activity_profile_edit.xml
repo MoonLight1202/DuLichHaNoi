@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.ProfileEdit"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btnBack_profileEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/edit_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="120dp"
+            android:gravity="center_horizontal"
+            android:text="Chỉnh sửa hồ sơ"
+            android:textAppearance="@style/edit_profile" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_photoUser"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/edit_profile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="158dp"
+            android:layout_marginTop="16dp"
+            android:alpha="0.8"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background"
+
+
+            app:civ_border_color="@color/cardview_dark_background"
+            app:civ_border_width="2dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/edit_profile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="158dp"
+            android:layout_marginTop="67dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_edit_profile" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="12dp"
+            android:layout_width="87dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="28dp"
+            android:text="Tên người dùng"
+            android:textSize="15sp"
+            android:textAppearance="@style/username"/>
+        <EditText
+            android:id="@+id/edit_username"
+            android:layout_marginTop="14dp"
+            android:hint="  Tên người dùng"
+            android:textSize="15sp"
+            android:inputType="textPersonName"
+            android:layout_width="361dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+
+            android:background="@drawable/rectangle_4"/>
+
+        <TextView
+            android:layout_marginTop="14dp"
+            android:layout_width="87dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="28dp"
+            android:text="Số điện thoại"
+            android:textSize="15sp"
+            android:textAppearance="@style/username"/>
+        <EditText
+            android:id="@+id/edit_contact"
+            android:layout_marginTop="14dp"
+            android:hint="  Số điện thoại"
+            android:layout_width="361dp"
+            android:layout_height="35dp"
+            android:inputType="phone"
+            android:textSize="15sp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@drawable/rectangle_4"/>
+
+        <TextView
+            android:layout_marginTop="14dp"
+            android:layout_width="87dp"
+            android:layout_height="20dp"
+            android:textSize="15sp"
+            android:layout_marginLeft="28dp"
+            android:text="Giới tính"
+            android:textAppearance="@style/username"/>
+        <EditText
+            android:id="@+id/edit_gender"
+            android:layout_marginTop="14dp"
+            android:hint="  Giới tính"
+            android:layout_width="361dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="24dp"
+            android:inputType="text"
+            android:textSize="15sp"
+            android:layout_marginRight="24dp"
+            android:background="@drawable/rectangle_4"/>
+
+        <TextView
+            android:layout_marginTop="14dp"
+            android:layout_width="87dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="28dp"
+            android:text="Tuổi"
+            android:textSize="15sp"
+            android:textAppearance="@style/username"/>
+        <EditText
+            android:id="@+id/edit_age"
+            android:layout_marginTop="14dp"
+            android:hint="  Tuổi"
+            android:layout_width="361dp"
+            android:layout_height="35dp"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@drawable/rectangle_4"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="95dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/rectangle_3"
+        android:text="Lưu"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textAppearance="@style/save" />
+
+</LinearLayout>

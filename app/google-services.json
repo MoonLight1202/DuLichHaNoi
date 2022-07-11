@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "66072046700",
+    "project_id": "hanoitouristtt21",
+    "storage_bucket": "hanoitouristtt21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66072046700:android:02ef34af480a14e29a3c49",
+        "android_client_info": {
+          "package_name": "com.example.hanoitourist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66072046700-8nd80947jr4rlle53verr0kdnhlkp9qm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hanoitourist",
+            "certificate_hash": "58634e28e3af9912bc0f3cdde878553cc073207e"
+          }
+        },
+        {
+          "client_id": "66072046700-4fhdr46hq3km0gkv28i7fs1754njije6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwJlRCvK2EuC3wv3du7jMiPxhIypyopB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66072046700-4fhdr46hq3km0gkv28i7fs1754njije6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

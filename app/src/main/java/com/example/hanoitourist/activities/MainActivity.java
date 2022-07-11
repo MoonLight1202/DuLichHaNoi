@@ -1,4 +1,4 @@
-package com.example.hanoitourist;
+package com.example.hanoitourist.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -10,9 +10,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
-import android.app.AlertDialog;
 import android.app.Dialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -25,9 +23,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.hanoitourist.activities.AboutApp;
-import com.example.hanoitourist.activities.LoginScreen;
-import com.example.hanoitourist.activities.PolicyActivity;
+import com.example.hanoitourist.R;
 import com.example.hanoitourist.database.Database;
 import com.example.hanoitourist.fragment.ExploreFragment;
 import com.example.hanoitourist.fragment.LikesFragment;

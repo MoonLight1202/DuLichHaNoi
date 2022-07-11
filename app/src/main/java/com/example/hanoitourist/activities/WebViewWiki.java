@@ -1,4 +1,4 @@
-package com.example.hanoitourist;
+package com.example.hanoitourist.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,8 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.TextView;
 
+import com.example.hanoitourist.R;
+
 public class WebViewWiki extends AppCompatActivity {
 
     private TextView txtback;
@@ -16,7 +18,7 @@ public class WebViewWiki extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_web_view_wiki );
+        setContentView( R.layout.activity_web_view_wiki );
         webView = (WebView) findViewById(R.id.webViewTinTuc);
         txtback = (TextView) findViewById(R.id.txtBack);
         Intent intent = getIntent();

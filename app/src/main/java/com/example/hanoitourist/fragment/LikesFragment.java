@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.hanoitourist.MainActivity;
+import com.example.hanoitourist.activities.MainActivity;
 import com.example.hanoitourist.model.Places;
 import com.example.hanoitourist.viewmodel.PlacesVM;
 import com.example.hanoitourist.R;

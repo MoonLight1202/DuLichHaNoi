@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 
-import com.example.hanoitourist.MainActivity;
+import com.example.hanoitourist.activities.MainActivity;
 import com.example.hanoitourist.R;
 import com.example.hanoitourist.model.User;
 import com.example.hanoitourist.viewmodel.UserVM;

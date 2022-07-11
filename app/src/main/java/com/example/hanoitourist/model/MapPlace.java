@@ -22,7 +22,7 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import com.example.hanoitourist.MainActivity;
+import com.example.hanoitourist.activities.MainActivity;
 import com.example.hanoitourist.R;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationCallback;

@@ -20,13 +20,13 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.ViewPager2;
 
-import com.example.hanoitourist.MainActivity;
+import com.example.hanoitourist.activities.MainActivity;
 import com.example.hanoitourist.model.Places;
 import com.example.hanoitourist.viewmodel.PlacesVM;
 import com.example.hanoitourist.R;
 import com.example.hanoitourist.model.User_Fav;
 import com.example.hanoitourist.viewmodel.User_fav_VM;
-import com.example.hanoitourist.WebViewWiki;
+import com.example.hanoitourist.activities.WebViewWiki;
 import com.example.hanoitourist.adapter.ExploreRecycleAdapter;
 import com.example.hanoitourist.adapter.RecyclerTouchListener;
 import com.example.hanoitourist.database.Database;
